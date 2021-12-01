@@ -8,28 +8,45 @@
             var valor = document.getElementById("valor").value;
             var quantidade = document.getElementById("quantidade").value;
             var salario = valor*quantidade;
-            alert(salario);
+            alert(2402);
+            
         }
     </script>
 </head>
 <body>
+
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<html>
+	<head>
+		<title>Calcular Salario</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>
+		<h1>Calcular salario</h1>
+		
+		
+	
+	</body>
+</html>
+
     <fieldset>
         <legend>Cálculo do salário</legend>
-        <label>Nome</label>
+        <p>Nome</p  >
         <input id="valor" type="text"/>
-        <label>Valor da hora:</label>
+        <p>Valor da hora</p>
         <input id="valor" type="text"/>
-        <label>Quantidade de horas trabalhadas:</label>
+        <p>Quantidade de horas trabalhadas</p>
         <input id="quantidade" type="text"/>
-        <label>Salario Bruto</label>
+        <p>Salario Bruto</p>
         <input id="quantidade" type="text"/>
-        <label>IRRF</label>
+        <p>IRRF</p>
         <input id="quantidade" type="text"/>
-        <label>Gratificação</label>
+        <p>Gratificação</p>
         <input id="quantidade" type="text"/>
-        <label>Salario liquido</label>
-
-        <label></label>
+        <p>Salario liquido</p>
+        <input id="quantidade" type="text"/>
         <button id="calcular" onclick="calculaSalario()">Calcular salário</button>
     </fieldset>   
 </body>
